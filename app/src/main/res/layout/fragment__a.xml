@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_A"
+    android:background="#FF0000">
+<LinearLayout
+    android:layout_margin="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment A"/>
+
+    <EditText
+        android:id="@+id/etdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter data"
+        android:padding="20dp"
+        ></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btngo"
+        android:text="Send data to second fragment"
+        ></Button>
+
+</LinearLayout>
+
+</FrameLayout>
